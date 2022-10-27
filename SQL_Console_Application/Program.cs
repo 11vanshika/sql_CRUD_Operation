@@ -12,17 +12,16 @@ namespace SQL_Console_Application
     {
         static void Main(string[] args)
         {
-            //Insert insertQuery = new Insert();
-            //insertQuery.insertdata();
+            main MainQuery = new main();
+            //MainQuery.UpdateForEmployee(1,"vanshika",6789345609,22,4,5);
+            //MainQuery.DeleteForEmployee(8);
+            ///MainQuery.Insert("xyz", 897389736, 23, 4, 1);
+            MainQuery.DisplayForEmployee();
 
-            //update updateQuery = new update();
-            //updateQuery.Update();
-
-            //Delete deleteQuery = new Delete();
-            //deleteQuery.delete();
-
-            Select selectQuery = new Select();
-            selectQuery.display();
+            // MainQuery.SP_InsertForDepartment("hr");//DepartmetName
+            //MainQuery.SP_UpdateForDepartment(1,selles);//DepartmentId , DepartmentName
+            //MainQuery.SP_InsertForSalary(675546);//salary 
+            //MainQuery.SP_UpdateForSalary(2,8658644);//salaryId , salary
         }
     }
 }
